@@ -1,0 +1,35 @@
+.BadgesList__container {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.BadgesList {
+  width: 105%;
+  height: 100%;
+  padding: 0.1rem 50px;
+  margin-top: 15px;
+  border-radius: 2px;
+  background-color: rgb(255, 225, 243);
+  box-shadow: 0 0 0 0.1rem rgba(33, 1, 26, 0.5);
+  box-shadow: 2px 2px 10px #666;
+}
+
+.BadgesList {
+  color: #1c1c1c;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.BadgesList:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #febadf;
+}
+
+.Navbar__brand-logo {
+  margin-right: 0.5rem;
+}
